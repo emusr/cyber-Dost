@@ -52,5 +52,5 @@ print(f"Accuracy : {accuracy_score(y_test, y_pred):.4f}")
 print(classification_report(y_test, y_pred, target_names=['Legit', 'Fraud']))
 
 # ── 7. Save model ─────────────────────────────────────────────────
-joblib.dump(pipeline, 'fraud_nlp_model.pkl')
+joblib.dump(pipeline, 'fraud_nlp_model.pkl ')
 print("Model saved → fraud_nlp_model.pkl")
