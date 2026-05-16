@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 
 # ── 1. Data load ──────────────────────────────────────────────────
-df = pd.read_csv('fraud_dataset_csv.xls')   # yahan apna file path dalo
+df = pd.read_csv('./data/fraud_dataset_csv.xls')   # yahan apna file path dalo
 df.dropna(inplace=True)
 
 # ── 2. Text preprocessing ─────────────────────────────────────────
