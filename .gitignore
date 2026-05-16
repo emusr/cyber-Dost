@@ -8,5 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
-fraud_dataset_csv.xls/
+fraud_dataset_csv.xls
 
