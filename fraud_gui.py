@@ -106,7 +106,7 @@ summary_var = tk.StringVar(value="")
 tk.Label(tab2, textvariable=summary_var, bg="#f5f5f5", fg="#555").pack()
 
 def open_csv():
-    path = filedialog.askopenfilename(filetypes=[("CSV/XLS", "*.csv *.xls *.txt")])
+    path = filedialog.askopenfilename(filetypes=[("CSV/", "*.csv *.xls *.txt")])
     if not path:
         return
     for row in tree.get_children():
